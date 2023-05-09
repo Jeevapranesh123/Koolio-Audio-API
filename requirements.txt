@@ -1,0 +1,7 @@
+flask
+wave
+mutagen
+hurry.filesize
+# hashlib
+pymongo
+python-dotenv
