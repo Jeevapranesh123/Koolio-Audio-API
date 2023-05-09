@@ -17,7 +17,7 @@ def upload():
     if request.method == 'POST':
         file = request.files['file']
         if file.filename.split('.')[1] not in ['mp3','wav']:
-            return 'invalid file type'
+            return render_template('upload.html',error="Invalid file type")
         f = File.FileUpload()
         data = f.upload(file)
         return render_template('upload.html',data=data)
