@@ -1,4 +1,4 @@
-# Flask Project Readme
+# Flask Project
 
 This project is a Flask web application designed to upload audios files to server and store it. It uses the Flask framework and pymongo drvier for connecting to MongoDB. 
 
